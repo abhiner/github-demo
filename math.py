@@ -3,7 +3,10 @@ def add(x,y):
     return x+y
 # Subtract implementation
 def subtract(x,y):
-    pass
+    if y>x:
+        return error
+    else:
+        return x-y
 # multiply implementation
 def multiply(x,y):
     pass
